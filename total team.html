@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Total team</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body style="   background-image: linear-gradient(180deg, rgb(96, 134, 210), rgb(199, 199, 69)); ">
+
+    <nav class="navbar sticky-bottom " style="background-color: rgb(14,77,131) ;padding:15px;   ">
+        <div class="container-fluid">
+
+
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                aria-controls="staticBackdrop" style="background-color:rgb(14,77,131)">
+                <i class="fa-solid fa-bars"></i> Menu
+            </button>
+
+            <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+                aria-labelledby="staticBackdropLabel" style="width: 15rem;">
+                <div class="offcanvas-header" style="background-color: rgb(14,77,131)">
+                    <h5 class="offcanvas-title" id="staticBackdropLabel" style="background-color: rgb(14,77,131)">
+                    </h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
+                            style="background-color: rgb(197, 202, 202);"></button> -->
+                </div>
+                <div class="offcanvas-body" style="background-color:rgb(14,77,131) ">
+                    <div>
+
+                        <div class=" col col-md-6">
+                            <div class="container">
+
+                                <div>
+                                    <div class="sidebar " style="background-color:rgb(14,77,131);font-size:20px;">
+
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close" style="color: rgb(213, 240, 240);">
+                                        </button>
+
+                                        <img src="/logosecond.png" alt="" style="height: 12%; width:44%;  ">
+                                        <ul class="sidebar-nav" type="none">
+                                            <li><a href="/index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-alarm"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z" />
+                                                        <path
+                                                            d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z" />
+
+                                                    </svg> Dashbord</a></li>
+                                            <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-people-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                                                    </svg> Portfolio</a>
+                                                <ul>
+                                                    <li><a href="/my prfile.html">My frofile</a></li>
+                                                    <li><a href="/edit my profile.html">Edit profile</a></li>
+                                                    <li><a href="/change password.html">Change Password</a></li>
+                                                    <li><a href="/change bank detail.html">Change bank detail</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-people-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                                                    </svg> Team</a>
+                                                <ul>
+                                                    <li><a href="/direct team.html">Direct team</a></li>
+                                                    <li><a href="/total team.html">Total Team</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-people-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                                                    </svg> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-bookmarks-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z" />
+                                                        <path
+                                                            d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z" />
+                                                    </svg> get fund</a>
+                                                <ul>
+                                                    <li><a href="/fund request.html"> Fund request</a></li>
+                                                    <li><a href="/fund reqest history.html">Fund request history </a></li>
+                                                    <li><a href="#"> Tranfer history</a></li>
+                                                    <li><a href="#"> Used fund</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-bookmarks-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z" />
+                                                        <path
+                                                            d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z" />
+                                                    </svg> get pin</a>
+                                                <ul>
+                                                    <li><a href="#">Pin request</a></li>
+                                                    <li><a href="#"> Pin history</a></li>
+                                                    <li><a href="#">Tranfer pin</a></li>
+                                                    <li><a href="#">Used pin</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-houses"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708L5.793 1Zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708L8.793 2Zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207l-4.5-4.5Z" />
+                                                    </svg>Genealogy</a></li>
+                                            <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-houses"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708L5.793 1Zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708L8.793 2Zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207l-4.5-4.5Z" />
+                                                    </svg> Withdrowal</a>
+                                                <ul>
+                                                    <li><a href="#">Make withdrawal</a></li>
+                                                    <li><a href="#">withdrawal history</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li><a href="/sign-in.html"> <svg xmlns="http://www.w3.org/2000/svg"
+                                                        width="16" height="16" fill="currentColor"
+                                                        class="bi bi-file-earmark-fill" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3z" />
+                                                    </svg> Sign-in
+                                                </a></li>
+                                            <li><a href="/sign-up.html"> <svg xmlns="http://www.w3.org/2000/svg"
+                                                        width="16" height="16" fill="currentColor"
+                                                        class="bi bi-file-earmark-fill" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3z" />
+                                                    </svg> Sign-up</a></li>
+                                            <li><a href="/sign-in.html"> <svg xmlns="http://www.w3.org/2000/svg"
+                                                        width="16" height="16" fill="currentColor"
+                                                        class="bi bi-file-earmark-fill" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3z" />
+                                                    </svg> Logout</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <img src="/logosecond.png" alt="" style="height: 10%; width:10%;  ">
+            <nav class="navbar " style="background-color:rgb(14,77,131);">
+
+
+
+
+                <div class="container-fluid">
+
+
+
+
+
+
+                    <form class="d-flex" role="search">
+
+                        <input type="text" value="https://icons.getbootstrap.com/icons/file-earmark-fill/" id="myInput">
+
+                        <!-- The button used to copy the text -->
+                        <button onclick="myFunction()" style="background-color:rgb(14,77,131); "> <svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-back" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"
+                                    style="color: white;" />
+                            </svg></button>
+                    </form>
+
+
+
+
+
+
+
+                    <button type="button" class="btn position-relative" style="color:white">
+                        <!-- <i class="fa-light fa-cowbell" style="color: black;"></i> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-bell-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
+                        </svg>
+
+                        <span class="position-absolute top-0 start-10 translate-middle badge rounded-pill bg-danger">
+                            3
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+                    <button type="button" class="btn  position-relative" style="color:white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                        </svg>
+                        <span class="position-absolute top-0 start-10 translate-middle badge rounded-pill bg-danger">
+                            9
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+                    <button type="button" class="btn  position-relative" style="color:white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z" />
+                            <path fill-rule="evenodd"
+                                d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
+                        </svg>
+                        <span
+                            class="position-absolute top-0 start-10 translate-middle p-2 bg-danger border border-light rounded-circle">
+                            <span class="visually-hidden">New alerts</span>
+                        </span>
+                    </button>
+                </div>
+
+
+            </nav>
+
+        </div>
+    </nav>
+
+
+
+    <h4 style="color:#fff;text-shadow:2px 3px 5px; margin-top:40px;">Admin Dashboard</h4>
+    <p id="home-link"><a href="index.html">Home </a> <span><a href="myprofile.html">&gt; Total Team</a></span></p>
+
+    <div class="container">
+        <div style=" background-image: linear-gradient(180deg, rgb(190, 42, 178), rgb(25, 89, 127));; padding:60px;margin-top:60px; color:white">
+            <h1> total Team</h1><br>
+
+
+
+            <table style="font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;">
+                <tr>
+                    <th style="border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px; color:rgb(87, 13, 53)">User id</th>
+                    <th style="border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px; color:rgb(87, 13, 53)">Member name</th>
+                    <th style="border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px; color:rgb(87, 13, 53)">Pakage</th>
+                    <th style="border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;color:rgb(87, 13, 53)">position</th>
+                </tr>
+                <tr>
+                    <td  style="border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;">LC3258659</td>
+                    <td  style="border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px; ">pihu mehta</td>
+                    <td  style="border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px; ">4LPA</td>
+                    <td  style="border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px; ">Assosiate engineer</td>
+                </tr>
+
+
+
+
+
+            </table>
+
+            <!-- <div>
+                <div class="row gx-5">
+                    <div class="col-12 col-md-3">
+                        <label for="" style="font-size: 20px;;" > Bank Account No:</label>
+                        <input class="p-2 form-control" type="text" style="border-radius:20px;;">
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <label for="" style="font-size: 20px;;" > IFSC Code:</label>
+                        <input class="p-2 form-control" type="text" style="border-radius:20px;;">
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <label for="" style="font-size: 20px;;" > Account Holder Name:</label>
+                        <input class="p-2 form-control" type="text" style="border-radius:20px;;">
+                    </div><br><br>
+                 
+                    <div class="col-12 col-md-3">
+                        <label for="" style="font-size: 20px;;" > Bank Name:</label>
+                        <input class="p-2 form-control" type="text" style="border-radius:20px;;">
+                    </div> 
+                    
+                    <div class="col-12 col-md-12"><br><br>
+                        <label for="" style="font-size: 20px;;" > Bank branch:</label>
+                        <input class="p-2 form-control" type="text" style="border-radius:20px;;">
+                    </div><br>
+                </div>
+            </div><br><br><br>
+            <button class="p-2  form-control"  style="border-radius:20px;"> <span style="border-radius:20px; font-size: 20px; "> Update Bank detail</span>  </button>
+             -->
+
+
+        </div>
+
+    </div>
+
+
+
+   
+    
+
+
+    <div class="container" style="background-color: rgb(14,77,131); margin-top:60px; margin-bottom:20px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 mt-5 footer">
+                    <p class="text-white font-weight-bold">COPYRIGHT © 2021 AppCubic Softech ALL RIGHTS RESERVED.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+     <script>
+            $('.feat-btn').click(function () {
+                $('nav ul.feat-show').toggleClass("show");
+
+            });
+
+            $('.serv-btn').click(function () {
+                $('nav ul.serv-show').toggleClass("show1");
+
+            });
+            $('.get-btn').click(function () {
+                $('nav ul.get-show').toggleClass("show2");
+
+            });
+            $('.pin-btn').click(function () {
+                $('nav ul.pin-show').toggleClass("show3");
+
+            });
+            $('.with-btn').click(function () {
+                $('nav ul.with-show').toggleClass("show4");
+
+            });
+
+
+
+        </script> 
+
+    <script>
+        const sidebarItems = document.querySelectorAll('.sidebar-nav li');
+
+        sidebarItems.forEach(item => {
+            item.addEventListener('click', () => {
+                sidebarItems.forEach(item => {
+                    item.classList.remove('active');
+                });
+                item.classList.add('active');
+            });
+        });
+
+        const submenus = document.querySelectorAll('.sidebar-nav li ul');
+
+        submenus.forEach(submenu => {
+            submenu.addEventListener('click', (event) => {
+                event.stopPropagation();
+            });
+        });
+
+        document.addEventListener('click', () => {
+            submenus.forEach(submenu => {
+                submenu.classList.remove('active');
+            });
+        });
+
+        const submenusItems = document.querySelectorAll('.sidebar-nav li ul li');
+
+        submenusItems.forEach(submenuItem => {
+            submenuItem.addEventListener('click', () => {
+                submenus.forEach(submenu => {
+                    submenu.classList.remove('active');
+                });
+            });
+        });
+    </script>
+    <script>
+        function myFunction() {
+            // Get the text field
+            var copyText = document.getElementById("myInput");
+
+            // Select the text field
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+
+            // Copy the text inside the text field
+            navigator.clipboard.writeText(copyText.value);
+
+            // Alert the copied text
+            alert("Copied the text: " + copyText.value);
+        }
+    </script> 
+</body>
+
+</html>
